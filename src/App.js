@@ -1,10 +1,11 @@
 import "./App.css";
+import Navigation from "./pages/Navigation";
 
 function App() {
   return (
-    <div className="App">
-      <p>Project Portfolio begins from here</p>
-    </div>
+    <>
+      <Navigation />
+    </>
   );
 }
 
